@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* **********************************NAVBAR*********************************************** */
+.navbarN {
+  position: absolute;
+  width: 100%;
+  height: 4rem;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 1rem;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.521);
+}
+.navbarN a {
+  display: inline-block;
+  color: rgb(104, 59, 0);
+  text-decoration: none;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  z-index: 1;
+}
+.navbarN a:hover {
+  color: brown;
+  text-decoration: none;
+}
+.navbarN h1 {
+  display: inline-block;
+  margin-left: 4rem;
+  padding: 0.2rem;
+  color: chocolate;
+  font-weight: 100;
+  margin-right: 30rem;
+}
+/* ***************************************************CAROUSEL***********************************/
+.carou {
+  width: 100%;
+  height: 50rem;
+  overflow: hidden;
+}
+/* ********************************SECOND PAGE************************************************** */
+.secPage {
+  width: 100%;
+  height: 58rem;
+  background-color: rgb(248, 234, 218);
+}
+.secPage img {
+  width: 45rem;
+  height: 40rem;
+  position: relative;
+  left: 8rem;
+  top: 8rem;
+  bottom: 6rem;
+}
+.RestInfo {
+  width: 45rem;
+  height: 40rem;
+  background-color: rgb(194, 167, 132);
+  position: relative;
+  left: 50rem;
+  bottom: 29rem;
+}
+.secPagetwo {
+  width: 100%;
+  height: 58rem;
+  background-color: rgb(248, 234, 218);
+}
+.secPagetwo img {
+  width: 45rem;
+  height: 40rem;
+  position: relative;
+  top: 8rem;
+  bottom: 6rem;
+  left: 50rem;
+}
+.RestInfotwo {
+  width: 45rem;
+  height: 40rem;
+  background-color: rgb(145, 90, 48);
+  position: relative;
+  left: 8rem;
+  bottom: 29rem;
+}
+/* *********PATIO DESCRIPTION************** */
+.patDesc {
+  background-image: url(DescImages/patio.jpg);
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+
+  width: 100%;
+  height: 52rem;
+}
+.patTitle {
+  position: relative;
+  top: 4rem;
+  font-weight: bolder;
+}
+/* ******************************HOME LASTPAGE******************************************** */
+.homeEnd {
+  width: 100%;
+  height: 10rem;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.homeEnd h4 {
+  position: relative;
+  top: 2rem;
+}
+/* ********************NAVIG - BAR********************* */
+.barImage {
+  background-image: url(NavPageImages/bar.jpg);
+  width: 100%;
+  height: 52rem;
+  background-position: center;
+  background-size: contain;
+}
+.menuImage {
+  background-image: url(NavPageImages/menu.jpg);
+  width: 100%;
+  height: 52rem;
+  background-position: center;
+  background-size: cover;
+}
+.teamImage {
+  background-image: url(NavPageImages/team.jpg);
+  width: 100%;
+  height: 52rem;
+  background-position: center;
+  background-size: cover;
+}
