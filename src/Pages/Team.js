@@ -6,6 +6,9 @@ const Team = () => {
     <div>
       <NavBar />
       <div className="teamImage" />
+      <div className="pageTitle">
+        <div>OUR TEAM</div>
+      </div>
     </div>
   );
 };

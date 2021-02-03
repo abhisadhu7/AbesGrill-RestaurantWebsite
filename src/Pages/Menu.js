@@ -6,6 +6,9 @@ const Menu = () => {
     <div>
       <NavBar />
       <div className="menuImage" />
+      <div className="pageTitle">
+        <div>THE MENU</div>
+      </div>
     </div>
   );
 };

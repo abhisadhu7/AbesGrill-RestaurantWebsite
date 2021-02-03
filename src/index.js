@@ -6,9 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Bar from "./Pages/Bar";
 import Menu from "./Pages/Menu";
 import Team from "./Pages/Team";
-import PrivateDining from "./Pages/PrivateDining";
-import Journal from "./Pages/Journal";
-import Happenings from "./Pages/Happenings";
+import Reservations from "./Pages/Reservations";
 
 ReactDOM.render(
   <Router>
@@ -18,9 +16,7 @@ ReactDOM.render(
         <Route exact path="/Bar" component={Bar} />
         <Route exact path="/Menu" component={Menu} />
         <Route exact path="/Team" component={Team} />
-        <Route exact path="/PrivateDining" component={PrivateDining} />
-        <Route exact path="/Journal" component={Journal} />
-        <Route exact path="/Happenings" component={Happenings} />
+        <Route exact path="/Reservations" component={Reservations} />
       </Switch>
     </>
   </Router>,

@@ -1,19 +1,16 @@
 import React from "react";
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <div>
-      <div className="navbarN">
+      <div className="navbarN" style={{ backgroundColor: props.color }}>
         <a href="/Bar">BAR</a>
         <a href="/Menu">MENUS</a>
-        <a href="/Team">TEAM</a>
-        <a href="/PrivateDining">PRIVATE DINING</a>
-        <a href="/Happenings">HAPPENINGS</a>
-        <a href="/Journal">JOURNAL</a>
         <a href="/">
           <h1>ABE'S GRILL</h1>
         </a>
-        <a href="#">RESERVATIONS</a>
+        <a href="/Team">TEAM</a>
+        <a href="/Reservations">RESERVATIONS</a>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HomeEnd from "../Components/HomeEnd";
 import NavBar from "../Components/NavBar";
 import Patio from "../Components/Patio";
@@ -7,9 +7,21 @@ import RestDesc2 from "../Components/RestDesc2";
 import SlideShow from "../Components/SlideShow";
 
 const Home = () => {
+  const [navbar, setNavbar] = useState("");
+
+  const navScroll = () => {
+    if (window.scrollY >= 684) {
+      setNavbar("white");
+    }
+    if (window.scrollY < 684) {
+      setNavbar("");
+    }
+  };
+
+  window.addEventListener("scroll", navScroll);
   return (
     <div>
-      <NavBar />
+      <NavBar color={navbar} />
       <SlideShow />
 
       <RestDesc
